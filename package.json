@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "Make promise rejection handling handler",
   "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
   "scripts": {
     "prepublish": "npm test && npm run build",
     "build": "tsc",
@@ -10,6 +11,7 @@
     "test": "mocha --compilers ts:ts-node/register",
     "test:watch": "npm run test -- --watch"
   },
+  "repository": "pawsong/express-handle-rejection",
   "author": "Seunggeun Song <seungguen@nector.co>",
   "license": "MIT",
   "files": [
